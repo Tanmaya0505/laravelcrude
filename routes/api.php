@@ -18,4 +18,8 @@ use App\Http\Controllers\Api\Eventapi;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
-
+Route::post('/store',[Eventapi::class,'store']);
+Route::post('/eventlist',[Eventapi::class,'create']);
+Route::get('/edit-event/{id}', [Eventapi::class, 'edit']);
+Route::post('update-event/{id}', [Eventapi::class, 'update']);
+Route::post('delete-event/{id}', [Eventapi::class, 'destroy']);
