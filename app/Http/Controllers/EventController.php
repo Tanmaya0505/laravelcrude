@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Event;
 use Illuminate\Http\Request;
 
+
 class EventController extends Controller
 {
     /**
@@ -14,7 +15,7 @@ class EventController extends Controller
      */
     public function index()
     {
-        //
+
     }
 
     /**
@@ -24,7 +25,7 @@ class EventController extends Controller
      */
     public function create()
     {
-        //
+
     }
 
     /**
@@ -35,7 +36,7 @@ class EventController extends Controller
      */
     public function store(Request $request)
     {
-        //
+
     }
 
     /**
@@ -55,9 +56,7 @@ class EventController extends Controller
      * @param  \App\Models\Event  $event
      * @return \Illuminate\Http\Response
      */
-    public function edit(Event $event)
-    {
-        //
+
     }
 
     /**
@@ -69,7 +68,7 @@ class EventController extends Controller
      */
     public function update(Request $request, Event $event)
     {
-        //
+
     }
 
     /**
@@ -78,8 +77,6 @@ class EventController extends Controller
      * @param  \App\Models\Event  $event
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Event $event)
-    {
-        //
+
     }
 }
